@@ -1,5 +1,6 @@
 import DisplayTasks from "./components/DisplayTasks"
 import AddTasks from "./components/AddTasks"
+import Card from "./components/Card";
 import './App.css';
 import { useState } from "react";
 

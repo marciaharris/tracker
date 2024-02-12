@@ -1,11 +1,11 @@
+import Card from "./Card";
+
 export default function DisplayTasks({tasks}){
-    //testing that tasks arrived in component
-    console.log(tasks)
     //map through the array to include all previously entered tasks and add new one
-let taskItems = tasks.map((task,index)=>{
+let taskItems = tasks.map((task)=>{
     return(
-           <p key={index}>{task}</p>
-    )
+            <Card task={task}/>
+           )
 })
 console.log(taskItems)
 return(
