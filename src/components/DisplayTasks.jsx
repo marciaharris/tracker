@@ -7,7 +7,6 @@ let taskItems = tasks.map((task)=>{
             <Card task={task}/>
            )
 })
-console.log(taskItems)
 return(
     <div>
             {taskItems}

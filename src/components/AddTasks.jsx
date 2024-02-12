@@ -6,7 +6,7 @@ export default function AddTasks({setTasks}){
         //setTasks({task:"",img:,})
 //cannot figure out how to clear the input value for new task
 // .reset not working, assigning it to empty string wont allow new inputs
-        inputValue.reset();
+        let inputs =document.getElementById("input");
     }
     return(
     <div>

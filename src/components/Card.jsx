@@ -13,7 +13,7 @@ let demoData = [];
               <span class="tag">Date</span>
       
               <div class="list">{task}</div>
-              <p>INSERT WORDS OF MOTIVATION</p>
+              <p>You're gonna get it done! </p>
             </div>
       
       
