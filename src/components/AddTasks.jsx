@@ -1,18 +1,24 @@
+import { useState } from "react";
+
 export default function AddTasks({setTasks}){
+    const [newTaskInput,setNewTaskInput] = useState("");
     //set a function that sets the tasks and clears the input after
     function setAndClearInput(){
-        let inputValue = document.getElementById('tasks');
-        setTasks(oldTasks => [...oldTasks, inputValue.value])
-        //setTasks({task:"",img:,})
-//cannot figure out how to clear the input value for new task
-// .reset not working, assigning it to empty string wont allow new inputs
-        let inputs =document.getElementById("input");
+        setTasks(oldTasks => [...oldTasks, newTaskInput])
+        setNewTaskInput("");
+        //swr hook
     }
     return(
+    <>
     <div>
-       <input id="tasks"></input>
+        <h1 id="welcome">Hi! Please enter a task</h1>
+    </div>
+    <div>
+       <input id="tasks" value={newTaskInput} onChange={(ev)=>setNewTaskInput(ev.target.value)}/>
        <div>
             <button onClick ={()=>setAndClearInput()}>Add Tasks</button>
        </div>
-    </div>)
+    </div>
+    </>
+    )
 }
