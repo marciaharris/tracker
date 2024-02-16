@@ -23,12 +23,18 @@ export default function Card ({task}){
     }
     const time = () => {
     let taskTime =  prompt("What time would you like your task completed?");
-      return (
-      <p> {taskTime} </p>
-      );
+   let p = document.createElement("p");
+    p.innerText=taskTime;
+    let div = document.getElementById("time");
+    div.append(p);
+      
     }
     const date = () => {
      let taskDate = prompt("What date would you like your task completed?");
+     let p = document.createElement("p");
+     p.innerText=taskDate;
+     let div = document.getElementById("date");
+     div.append(p);
     }
     return(   
         <div id="container">
@@ -39,7 +45,9 @@ export default function Card ({task}){
             <div class="card__details">
 
               <button class="tag" onClick={time}>Time</button>
+              <div id="time"></div>
               <button class="tag" onClick={date}>Date</button>
+              <div id="date"></div>
       
               <div class="list">{task}</div>
               <p>{Motivation[Math.floor(Math.random()*7)]}</p>

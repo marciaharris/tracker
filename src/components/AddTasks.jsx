@@ -6,7 +6,6 @@ export default function AddTasks({setTasks}){
     function setAndClearInput(){
         setTasks(oldTasks => [...oldTasks, newTaskInput])
         setNewTaskInput("");
-        //swr hook
     }
     return(
     <>

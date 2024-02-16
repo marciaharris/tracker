@@ -26,11 +26,15 @@ button.react:hover {
 }
 img {
   width: 50%;
-  height:50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 12px;
+  
 }
 body {
-  background: linear-gradient(to right,#96477d,#2491b3);
+  background-image: url(https://www.nawpic.com/media/2020/black-background-nawpic-1.webp);
   color: black;
+  background-size: cover;
   font-family: "Cedarville Cursive", cursive;
 }
 #container {
@@ -63,7 +67,7 @@ body {
   color: #788697;
 }
 .list {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
   margin-top: 16px;
 }
