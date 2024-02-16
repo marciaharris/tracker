@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export default function App (){
   //initiating state of empty array
-  const [tasks, setTasks] = useState([]); 
+  const [tasks, setTasks] = useState([]);
   return(
     <div>
       <AddTasks setTasks={setTasks}/>

@@ -10,26 +10,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+button:hover {
   filter: drop-shadow(0 0 2em #bc539baa);
 }
-.logo.react:hover {
+button.react:hover {
   filter: drop-shadow(0 0 2em #a73181aa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .card {
@@ -41,15 +26,15 @@
 }
 img {
   width: 50%;
+  height:50%;
 }
 body {
-  background-color: #d6c5d1;
+  background: linear-gradient(to right,#96477d,#2491b3);
   color: black;
-  font-family: "Raleway", sans-serif;
+  font-family: "Cedarville Cursive", cursive;
 }
 #container {
   max-width: 300px;
-
   /* Center the container in middle on horizontal axis */
   margin: 0 auto;
 
@@ -73,27 +58,27 @@ body {
   border: 1px solid #e5eaed;
 
   border-radius: 50px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   color: #788697;
 }
 .list {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 600;
-
   margin-top: 16px;
 }
 
 /* Style p element */
 p {
-  font-size: 14px;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
   color: #7f8c9b;
   line-height: 150%;
 }
 button {
   border: none;
   padding: 12px 24px;
-  border-radius: 50px;
+  border-radius: 100px;
 
   font-weight: 600;
   color: #bc539baa;
@@ -109,4 +94,8 @@ button {
 .card__details {
   /* Add space around the details */
   padding: 16px 8px 8px 8px;
+}
+#welcome{
+  font-family: "Protest Strike", sans-serif;
+  color:#c86bb8
 }
