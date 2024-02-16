@@ -11,7 +11,7 @@ export default function AddTasks({setTasks}){
     return(
     <>
     <div>
-        <h1 id="welcome">Hi! Please enter a task</h1>
+        <h1 id="welcome">Hi! Please enter a task!</h1>
     </div>
     <div>
        <input id="tasks" value={newTaskInput} onChange={(ev)=>setNewTaskInput(ev.target.value)}/>
