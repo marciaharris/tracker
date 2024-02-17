@@ -6,7 +6,7 @@ export default function DisplayTasks({tasks}){
 let taskItems = tasks.map((task)=>{
     return(
             <Card task={task}/>
-           )
+           ) 
 })
 return(
     <div>

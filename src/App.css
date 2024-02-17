@@ -34,7 +34,8 @@ img {
 body {
   background-image: url(https://www.nawpic.com/media/2020/black-background-nawpic-1.webp);
   color: black;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: repeat;
   font-family: "Cedarville Cursive", cursive;
 }
 #container {
