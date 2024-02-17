@@ -1,5 +1,5 @@
 # The name of the project is Your Friendly Task
-This is a task tracker that allows users to record their tasks with motivational quotes and cute pictures of cats to keep the user in good spirits. Unique features include a *card component* generated for each task for easy seperation. This is a solo project that showcases my React skills and my ability to solve problems using logic. I am proud of my API integration and the CSS styling I employed. 
+This is a task tracker that allows users to record their tasks with motivational quotes and cute pictures of cats to keep the user in good spirits. Unique features include a *card component* generated for each task for easy seperation. This is a solo project that showcases my React skills and my ability to solve problems using logic in my src-components folder. I am proud of my API integration and the CSS styling I employed. 
 
 **In order to set up this project you need to run npm install**.
 Afterwards run npm run dev and follow the instructions to open the localhost link.
