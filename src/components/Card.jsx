@@ -31,7 +31,7 @@ export default function Card ({task}){
         if(ofDay.toUpperCase() === "AM" || ofDay.toUpperCase() ==="PM"){
         setTime(time+ ofDay);
        } else {
-        alert("Error! Please choose AM or PM")
+        alert("ERROR! Please choose AM or PM")
        }
      } else{
       alert("ERROR! Please enter a number from 1-12");
