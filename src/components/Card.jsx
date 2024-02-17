@@ -24,7 +24,6 @@ export default function Card ({task}){
             <div>There was an error!</div>
         )
     }
-   console.log(Motivation.length);
     let TaskTime = () => {
       let time = prompt("What time would you like your task completed? Enter a number 1-12. Substitute Colons for Periods");
       if(time>0 &&time<13){
