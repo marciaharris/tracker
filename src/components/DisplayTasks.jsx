@@ -1,16 +1,9 @@
-import Card from "./Card";
+import Card from './Card'
 
-
-export default function DisplayTasks({tasks}){
-    //map through the array to include all previously entered tasks and add new one
-let taskItems = tasks.map((task)=>{
-    return(
-            <Card task={task}/>
-           ) 
-})
-return(
-    <div>
-            {taskItems}
-    </div>
-)
+export default function DisplayTasks({ tasks }) {
+  //map through the array to include all previously entered tasks and add new one
+  let taskItems = tasks.map((task) => {
+    return <Card task={task} />
+  })
+  return <div>{taskItems}</div>
 }
