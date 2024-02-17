@@ -1,8 +1,8 @@
 # The name of the project is Your Friendly Task
 This is a task tracker that allows users to record their tasks with motivational quotes and cute pictures of cats to keep the user in good spirits. Unique features include a *card component* generated for each task for easy seperation.
 
-**In order to set up this project you need to run npm install**
-Afterwards run npm run dev and follow the instrucitons to open the localhost link.
+**In order to set up this project you need to run npm install**.
+Afterwards run npm run dev and follow the instructions to open the localhost link.
 
 
 # The technologies I am using include React + Vite
@@ -17,7 +17,7 @@ Currently, two official plugins are available:
 Axios is being used to fetch the data from the API and SWR is being used to save that data to a cache and renders it for optimized load time.
 
 *This is how the webpage should look*
-![https://example.com/image.jpg](<Screenshot 2024-02-16 at 6.28.09 PM.png>))
+![https://example.com/image.jpg](<Screenshot 2024-02-16 at 6.28.09 PM.png>)
 # For support contact me
 [My LinkedIn](https://www.linkedin.com/in/marcia-harris-5bb4551a7/)
 
