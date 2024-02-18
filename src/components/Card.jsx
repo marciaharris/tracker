@@ -49,16 +49,16 @@ export default function Card({ task }) {
   }
   return (
     <div id='container'>
-      <div class='card'>
+      <div className='card'>
         <img src={data[0].url} alt='random image' />
 
-        <div class='card__details'>
-        <div class='list'>{task}</div>
-          <button class='tag' onClick={TaskTime}>
+        <div className='card__details'>
+        <div className='list'>{task}</div>
+          <button className='tag' onClick={TaskTime}>
             Time
           </button>
           <div id='time'>{newTime}</div>
-          <button class='tag' onClick={TaskDate}>
+          <button className='tag' onClick={TaskDate}>
             Date
           </button>
           <div id='date'>{newDate}</div>
