@@ -34,7 +34,7 @@ export default function Card({ task }) {
     if (time > 0 && time < 13) {
       let ofDay = prompt('AM or PM?')
       if (ofDay.toUpperCase() === 'AM' || ofDay.toUpperCase() === 'PM') {
-        setTime(time + ofDay)
+        setTime(time +" " + ofDay)
       } else {
         alert('ERROR! Please choose AM or PM')
       }
@@ -53,6 +53,7 @@ export default function Card({ task }) {
         <img src={data[0].url} alt='random image' />
 
         <div class='card__details'>
+        <div class='list'>{task}</div>
           <button class='tag' onClick={TaskTime}>
             Time
           </button>
@@ -61,8 +62,6 @@ export default function Card({ task }) {
             Date
           </button>
           <div id='date'>{newDate}</div>
-
-          <div class='list'>{task}</div>
           <p>{Motivation[Math.floor(Math.random() * 11)]}</p>
         </div>
       </div>
